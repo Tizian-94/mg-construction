@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    <title>MG Construction</title>
+    <style>
+        .carousel-item {
+            position: relative;
+        }
+
+        .dark-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            max-height: 550px;
+            object-fit: cover;
+        }
+
+        .carousel-caption {
+            z-index: 2;
+        }
+        h1, h5, h4, p, a {
+          font-family: 'Roboto', sans-serif;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="bg-dark">
+      <div class="text-center">
+        <div class="row">
+          <div class="col text-left">
+            <h4>LOGO</h4>
+          </div>
+          <div class="col">
+            <h5 class="text-light">Tel: 098</h5>
+            <h5 class="text-light">Email: info@mail.com</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Naslovna</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="services-tab" data-bs-toggle="tab" data-bs-target="#services-tab-pane" type="button" role="tab" aria-controls="services-tab-pane" aria-selected="false">Usluge</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="references-tab" data-bs-toggle="tab" data-bs-target="#references-tab-pane" type="button" role="tab" aria-controls="references-tab-pane" aria-selected="false">Referentna Lista</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Kontakt</button>
+      </li>
+    </ul>
+    
+      
+      
+      
+
+
+      
+
+
+
+      <div id="carouselExample" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="dark-overlay"></div>
+                <img src="https://cdn.pixabay.com/photo/2017/04/11/18/37/tool-2222458_960_720.jpg" class="d-block w-100" alt="First Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Brzina i učinkovitost</h1>
+                    <h4>Brža izgradnja ne samo da štedi vrijeme, već i smanjuje ometanje okolnog okoliša</h4>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="dark-overlay"></div>
+                <img src="https://cdn.pixabay.com/photo/2018/04/21/19/13/roof-truss-3339206_960_720.jpg" class="d-block w-100" alt="Second Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Isplativo rješenje</h1>
+                    <h4>Bolja kontrola upotrebe materijala i smanjeni otpad.</h4>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="dark-overlay"></div>
+                <img src="https://cdn.pixabay.com/photo/2014/09/07/17/12/working-438059_960_720.jpg" class="d-block w-100" alt="Second Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Preciznost i kontrola kvalitete</h1>
+                    <h4>Mjere kontrole kvalitete provode se tijekom cijelog procesa proizvodnje, što dovodi do manjeg broja nedostataka i bolje ukupne kvalitete konstrukcije</h4>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+<div class="container mt-5">
+  <div class="tab-content" id="myTabContent">
+    <div class="row">
+      <div class="col my-5">
+        <!--HOME-->
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+          <p>
+            Suha gradnja, također poznata kao gradnja izvan gradilišta ili montažna gradnja, nudi nekoliko prednosti u odnosu na tradicionalne metode gradnje:
+          </p>
+          <ul>
+            <div class="row">
+              <div class="col">
+                <h1>
+                  <i class="fa-regular fa-clock"></i>
+                  Brzina i učinkovitost:
+                </h1>
+                <li>
+                Jedna od glavnih prednosti suhe gradnje je njena brzina i učinkovitost. Prefabricirane komponente proizvode se izvan lokacije u kontroliranim okruženjima. To omogućuje paralelnu obradu različitih faza izgradnje, značajno skraćujući vrijeme izgradnje. Brža izgradnja ne samo da štedi vrijeme, već i smanjuje ometanje okolnog okoliša.
+                </li>
+              </div>
+              <div class="col">          
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+              </div>
+              <div class="col">
+              <h1>
+              <i class="fa-solid fa-money-bill-trend-up"></i>
+              Isplativost:
+              </h1>
+              <li>
+              Metode suhe gradnje mogu dovesti do ušteda na različite načine. Budući da se komponente proizvode izvan mjesta, postoji bolja kontrola upotrebe materijala i smanjeni otpad. Pojednostavljeni proces izgradnje također rezultira nižim troškovima rada. Osim toga, brži završetak projekata može dovesti do ranijeg useljenja, smanjujući troškove financiranja za programere.
+              </li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <h1>
+                <i class="fa-solid fa-award"></i>
+                Preciznost i kontrola kvalitete:
+                </h1>
+                <li>
+                Prefabricirane komponente proizvode se s visokom preciznošću u tvorničkim uvjetima, gdje se čimbenici okoliša mogu kontrolirati. Time se osigurava viša razina kvalitete i postojanosti konstrukcijskih elemenata. Mjere kontrole kvalitete provode se tijekom cijelog procesa proizvodnje, što dovodi do manjeg broja nedostataka i bolje ukupne kvalitete konstrukcije. Ova preciznost može biti posebno korisna za projekte sa specifičnim zahtjevima dizajna ili malim tolerancijama.
+                </li>
+              </div>
+              <div class="col">
+              </div>
+            </div>
+          </ul>
+          <div class="text-center my-5">
+            <img src="https://media.istockphoto.com/id/1176510478/photo/builder-taking-a-sheet-of-chip-board-cladding.jpg?s=612x612&w=0&k=20&c=avIabgEsI_mEdp6FHaRj98Q3FVggG3NpP5LzIIwpqpg=">
+          </div>
+          <p>
+            Ove pogodnosti čine suhu gradnju atraktivnom opcijom za mnoge građevinske projekte, nudeći kombinaciju brzine, isplativosti i visokokvalitetnih rezultata.
+          </p>
+        </div>
+        <!--SERVICES-->
+        <div class="tab-pane fade" id="services-tab-pane" role="tabpanel" aria-labelledby="services-tab" tabindex="0">
+          <div class="row">
+            <div class="col">
+              <h1>
+                Usluge
+              </h1>
+            </div>
+            <div class="col">
+              <p>IMG</p>
+            </div>
+          </div>
+          
+
+
+
+        </div>
+      <!--REFERENCES-->
+      <div class="tab-pane fade" id="references-tab-pane" role="tabpanel" aria-labelledby="references-tab" tabindex="0">Referentna Lista</div>
+      <!--CONTACT-->
+      <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">Kontakt</div>
+
+
+
+      </div>
+  </div>
+    
+</div>
+    
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
